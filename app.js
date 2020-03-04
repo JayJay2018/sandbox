@@ -18,4 +18,4 @@ app.get('/', (req,res, next) => {
 });
 
 const server = http.createServer(app);
-server.listen(4200);
+app.listen(4200);
