@@ -1,0 +1,14 @@
+<%- include('./partials/head.ejs') %>
+  <link rel="stylesheet" href="/css/forms.css">
+  <link rel="stylesheet" href="/css/product.css">
+</head>
+<body>
+  <%- include('./partials/nav.ejs') %>
+  <main>
+    <h1>Add Product</h1>
+    <form action="/admin/add-product" method="post">
+      <input type="text" name="title">
+      <button tyoe="submit">Submit this shit</button>
+    </form>
+  </main>
+  <%- include('./partials/end.ejs') %>

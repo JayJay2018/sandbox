@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/JayJay2018/sandbox#readme",
   "dependencies": {
+    "ejs": "^3.0.1",
     "express": "^4.17.1"
   }
 }
